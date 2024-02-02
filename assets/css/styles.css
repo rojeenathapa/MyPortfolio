@@ -332,10 +332,6 @@ body.light-theme {
   color: white;
 }
 
-.home__img {
-  width: 160px;
-}
-
 .home__handle {
   justify-self: center;
   width: 190px;
@@ -926,10 +922,6 @@ body.light-theme {
     height: 253px;
   }
 
-  .home__img {
-    width: 130px;
-  }
-
   .about__info {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1106,7 +1098,7 @@ body.light-theme {
   }
 
   .home__img {
-    width: 220px;
+    width: 300px;
   }
   .home__social-link {
     padding: 0.4rem;
