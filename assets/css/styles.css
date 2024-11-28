@@ -252,6 +252,7 @@ body.light-theme {
   font-weight: var(--font-medium);
   transition: 0.4s;
   margin-top: 40px;
+  width: 170px;
 }
 
 .nav__logo:hover {
@@ -1216,5 +1217,13 @@ body.light-theme {
     font-size: 1.25rem;
     padding: 0.4rem;
     border-radius: 0.5rem;
+  }
+}
+
+
+@media screen and (max-width: 992px) {
+  .nav__logo {
+    margin-top: 40px;
+    width: 100px;
   }
 }
