@@ -17,13 +17,21 @@
   --sat: 66%;
   --lig: 75%;
   --second-hue: 219;
-  --first-color: hsl(var(--first-hue), var(--sat), var(--lig));
-  --first-color-alt: hsl(var(--first-hue), var(--sat), 71%); /* -4% */
+
+  /* --first-color: hsl(var(--first-hue), var(--sat), var(--lig));
+  --first-color-alt: hsl(var(--first-hue), var(--sat), 71%);
   --title-color: hsl(var(--second-hue), 15%, 95%);
   --text-color: hsl(var(--second-hue), 8%, 75%);
   --text-color-light: hsl(var(--second-hue), 4%, 55%);
   --body-color: hsl(var(--second-hue), 48%, 8%);
-  --container-color: hsl(var(--second-hue), 32%, 12%);
+  --container-color: hsl(var(--second-hue), 32%, 12%); */
+  --first-color: rgb(163, 149, 233);
+  --first-color-alt: rgb(148, 132, 229); /* -4% lightness */
+  --title-color: rgb(240, 241, 244);
+  --text-color: rgb(186, 189, 196);
+  --text-color-light: rgb(135, 138, 144);
+  --body-color: rgb(10, 17, 30);
+  --container-color: rgb(20, 27, 40);
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -323,7 +331,7 @@ body.light-theme {
 }
 
 .home__education {
-  color: rgb(160, 234, 240);
+  color: var(--body-color);
   margin-bottom: 2.5rem;
 }
 
@@ -389,7 +397,7 @@ body.light-theme {
 }
 
 .home__scroll {
-  color: var(--first-color);
+  color: var(--body-color);
   right: -1.5rem;
   bottom: 4rem;
   display: grid;
